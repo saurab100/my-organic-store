@@ -1,8 +1,10 @@
 .main-header {
-    display: flex;
+    display: grid;
     align-items: center;
     background-color: aqua;
 }
+
+
 
 header ul {
     display: flex;
