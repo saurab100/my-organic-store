@@ -1,0 +1,26 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-right: 50px;
+    display: flex;
+}
+
+.image-container-1 {
+    text-align: center;
+}
+
+.image-container-2 {
+    text-align: center;
+}
+
+.image-container-3 {
+    text-align: center;
+}
