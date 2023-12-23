@@ -1,19 +1,42 @@
 .main-header {
     display: grid;
     align-items: center;
-    background-color: aqua;
+    background-color: beige;
 }
 
+.header-left {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
 
-
-header ul {
+#first-ul {
     display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
-header li {
-    margin-right: 50px;
-    display: flex;
+.menu-item {
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: brown;
 }
+
+.header-right {
+    display: inline-flex;
+    align-items: end;
+    flex-wrap: wrap;
+    
+}
+
+#second-ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
 
 .image-container-1 {
     text-align: center;
